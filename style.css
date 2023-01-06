@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Tajawal', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* universal class style here */
+h1{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #FFFFFF;
+}
+h2{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+h3{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+}
+.container {
+  width: 1320px;
+  margin: auto;
+}
+.text_center{
+  text-align: center;
+}
+.text_right{
+  text-align: right;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100% !important;
+}
+.btn{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 20px;
+  color: #005FAC;
+}
+.left_col{
+  width: 50%;
+}
+.right_col{
+  width: 50%;
+}
+
+
+/* hero section style*/
+.hero_section {
+  background-image: url(../images/banner/banner3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  padding-top: 250px;
+}
+.right_col h1{
+  padding-bottom: 20px;
+}
+.right_col p{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.right_col a{
+  text-decoration: none;
+}
+
+/* failures section style */
+
+.failures_section{
+  padding:150px;
+}
+.failures_content{
+  width: 60%;
+  padding-top:100px
+}
+.failures_content h2{
+  padding-bottom: 20px;
+}
+.failures_content p{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #444343;;
+}
+.failure_list{
+  padding-top: 20px;
+  line-height: 20px;
+}
+.failure_list p{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444343;
+  line-height: 40px;
+}
+.check_icon{
+  color: #16D887;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+
+
+
+
+/* Plan section style */
+.plan_section{
+  padding-bottom: 150px;
+}
+.col_1, .col_2, .col_3, .col_4{
+  padding: 150px 15px;
+  text-align: center;
+  line-height: 40px;
+}
+.plan_list p{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #737272;
+}
+
+.call_block{
+  background:linear-gradient(90deg, #005FAC 0%, rgb(0 50 150 / 5%) 100%), url(../images/watch.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 8px;
+  padding: 96px 93px 24px;
+}
+.call_block_content{
+  width: 50%;
+}
