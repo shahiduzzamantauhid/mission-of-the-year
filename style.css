@@ -46,6 +46,9 @@ h3{
 .text_right{
   text-align: right;
 }
+.margin_auto{
+  margin: auto;
+}
 .row{
   display: flex;
   justify-content: space-between;
@@ -81,7 +84,6 @@ h3{
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  position: relative;
   padding-top: 250px;
 }
 .right_col h1{
@@ -143,10 +145,10 @@ h3{
 
 /* Plan section style */
 .plan_section{
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .col_1, .col_2, .col_3, .col_4{
-  padding: 150px 15px;
+  padding: 100px 15px;
   text-align: center;
   line-height: 40px;
 }
@@ -171,4 +173,134 @@ h3{
 }
 .call_block_content{
   width: 50%;
+}
+.call_block_content h2{
+  color:white !important;
+}
+
+
+
+
+
+
+
+
+
+/* suggstion section style */
+
+.contact_section{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background:linear-gradient(272deg, #005FAC 0%, rgb(0 50 150 / 5%) 100%), url(../images/banner/advice.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content_header h2{
+  color: white !important;;
+}
+.contact_col{
+  width: 60%;
+  padding-top: 100px;
+  margin: auto;
+}
+.message_box{
+  font-family: 'work sans';
+  width: 100%;
+  height: 150px;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+}
+.email_box{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.btn_radius{
+  border-radius: 10px;
+}
+
+
+/* footer section style */
+
+.Contact{
+  background-color: #151414;
+}
+.footer_text{
+  width: 40%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.contract-title{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #F8F8F8;
+  padding-bottom: 20px;
+}
+.contract-description{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.email{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom:16px;
+}
+.phone{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom:16px;
+}
+.ancor a{
+  text-decoration:none;
+  padding-left:8px;
+}
+.sub{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.footer_input{
+  width: 325px;
+  height: 44px;
+  display:block;
+  background: #151414;
+  border:0.4px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 25px;
+  font-size: 18px;
+}
+.button{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  background: #005FAC;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 20px;
+  color: #FFFFFF;
+  border-radius: 8px;
 }
